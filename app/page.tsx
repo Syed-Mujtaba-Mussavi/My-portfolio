@@ -1,5 +1,6 @@
+import Navbar from "@/components/Navbar";
 import Sidebar from "@/components/Sidebar";
-import Image from "next/image";
+import { Component } from "react";
 
 export default function Home() {
   return (
@@ -7,8 +8,8 @@ export default function Home() {
       <div className="col-span-12 p-4 text-center bg-white lg:col-span-3 rounded-2xl">
         <Sidebar />
       </div>
-      <div className="col-span-12 lg:col-span-9 bg-white rounded-2xl">
-        layout
+      <div className="flex flex-col col-span-12 lg:col-span-9 bg-white rounded-2xl">
+        <Navbar />
       </div>
     </div>
   );
