@@ -2,8 +2,8 @@
 import { usePathname, useRouter } from "next/navigation";
 import { useState, useEffect } from "react";
 import NavItem from "./NavItem";
-import Project from "@/app/project";
-import Resume from "@/app/resume";
+import Project from "@/app/Project";
+import Resume from "@/app/Resume";
 import About from "@/app/About";
 
 const Navbar = () => {

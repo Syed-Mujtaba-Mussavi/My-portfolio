@@ -16,7 +16,9 @@ const Sidebar = () => {
       <Image
         src={muj}
         alt="mujtaba pic"
-        className="w-32 h-32 mx-auto rounded-full"
+        width="128"
+        height="128"
+        className="mx-auto rounded-full"
       />
       <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
         <span className="text-green">Mujtaba</span> Mussavi
