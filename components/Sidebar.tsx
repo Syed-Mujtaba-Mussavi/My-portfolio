@@ -39,10 +39,10 @@ const Sidebar = () => {
       </Link>
       {/* social icons */}
       <div className="flex items-center justify-around my-5 w-9/12 mx-auto text-green-500 md:w-full">
-        <Link href="">
+        <Link href="https://github.com/Syed-Mujtaba-Mussavi">
           <AiFillGithub className="w-8 h-8 cursor-pointer" />
         </Link>
-        <Link href="">
+        <Link href=" https://www.linkedin.com/in/syed-mujtaba-mussavi-19441025b/">
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
         </Link>
         <Link href="">
