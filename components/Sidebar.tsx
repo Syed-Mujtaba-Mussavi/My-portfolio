@@ -9,7 +9,7 @@ import Image from "next/image";
 import muj from "public/muj.png";
 import Link from "next/link";
 import Button from "./Button";
-
+import ThemeSwitcher from "./ThemeSwitcher";
 const Sidebar = () => {
   return (
     <div>
@@ -20,14 +20,19 @@ const Sidebar = () => {
         height="128"
         className="mx-auto rounded-full"
       />
-      <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
+      <h3 className="my-4 text-3xl font-normal tracking-wider font-kaushan">
         <span className="text-green">Mujtaba</span> Mussavi
       </h3>
-      <p className="px-2 py-1 my-3 bg-gray-200 rounded-full">Web Developer</p>
+      <p
+        className="px-2 py-1 my-3 bg-gray-200 dark:bg-dark-200
+       rounded-full"
+      >
+        Web Developer
+      </p>
       <Link
-        href=""
-        className="px-2 py-1 my-3 bg-gray-200 rounded-full flex items-center justify-center"
-        download="name"
+        href="/cv/Muj-resume.pdf"
+        className="px-2 py-1 my-3 bg-gray-200 dark:bg-dark-200 rounded-full flex items-center justify-center"
+        download="Muj-resume.pdf"
       >
         <GiTie className="w-6 h-6" />
         Download Resume
@@ -46,7 +51,7 @@ const Sidebar = () => {
       </div>
       {/* Address */}
       <div
-        className="py-4 my-5 bg-gray-200"
+        className="py-4 my-5 bg-gray-200 dark:bg-dark-200"
         style={{ marginLeft: "-1rem", marginRight: "-1rem" }}
       >
         <div className="flex items-center justify-center space-x-2">
@@ -58,9 +63,7 @@ const Sidebar = () => {
       </div>
       {/* email button */}
       <Button />
-      <button className="w-8/12 px-5 py-2 text-white rounded-full my-2 bg-gradient-to-r from-green to-blue-400">
-        Toggle Theme
-      </button>
+      <ThemeSwitcher />
     </div>
   );
 };

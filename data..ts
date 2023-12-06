@@ -15,14 +15,12 @@ export const services: Service[] = [
   {
     Icon: FaServer,
     title: "Backend  Development",
-    about:
-      "handle database, server, api using <b>Express </b> & other popular frameworks",
+    about: "In process of learning",
   },
   {
     Icon: AiOutlineApi,
     title: "API Development",
-    about:
-      "I can develop robust  REST API using <b>django-rest-api</b>  & <b>Node API</b> ",
+    about: "In process of learning",
   },
   {
     Icon: MdDeveloperMode,
@@ -106,102 +104,143 @@ export const tools: ISkill[] = [
 
 export const projects: IProject[] = [
   {
-    name: "COVID Tracker",
-    description:
-      "This app shows a statistical view about corona virus over the world",
-    image_path: "/images/covid.jpg",
-    deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
-    github_url: "https://github.com/Dey-Sumit/covid-19-tracker",
+    id: 1,
+    name: "Nike shoe",
+    image_path: "/portfolio11.PNG",
+    deployed_url: "https://nike-shoe-landing-page.netlify.app/",
+    github_url: "https://github.com/Syed-Mujtaba-Mussavi/Nike-landing-page",
+    category: ["Tailwind"],
+    description: "Nike Landing Page made by React and Tailwind css",
+    key_techs: ["react", "Tailwind"],
+  },
+  {
+    id: 2,
+    name: "Game Hub",
+    image_path: "/portfolio10.PNG",
+    deployed_url: "https://game-hub-lac-xi.vercel.app/",
+    github_url: "https://github.com/Syed-Mujtaba-Mussavi/game-hub",
     category: ["react"],
-    key_techs: ["React", "Chart.js", "Material UI"],
+    description: "It's a web app for searching your favorite games",
+    key_techs: ["react", "Material UI"],
   },
   {
-    name: "Algorithm Visualizer",
-    image_path: "/images/algoVisual.png",
-    deployed_url: "https://visual-algorithm.web.app/",
-    github_url: "https://github.com/Dey-Sumit/algorithm-visualizer",
-    category: ["react"],
+    id: 3,
+    name: "Promptopia",
+    image_path: "/portfolio9.PNG",
+    deployed_url: "https://promptopia-project-sigma.vercel.app/",
+    github_url: "https://github.com/Syed-Mujtaba-Mussavi/promptopia_project",
+    category: ["next"],
     description:
-      "An web app which shows how an algorithm (path finding or sorting) works with cool animation",
-    key_techs: ["React", "firebase", "Framer Motion"],
-  },
-
-  {
-    name: "Dev Talks",
-    image_path: "/images/dev.jpg",
-    deployed_url: "https://dev-talks.herokuapp.com/",
-    github_url: "https://github.com/Dey-Sumit/Dev-talks",
-    category: ["node", "mongo", "react"],
-    description:
-      "Social Media app for developers who can share project,create posts,etc...",
-    key_techs: [
-      "React",
-      "Redux",
-      "Node",
-      "Express",
-      "Mongo",
-      "REST API",
-      "Bootstrap",
-    ],
-  },
-
-  {
-    name: "Realtime Chat App",
-    image_path: "/images/chatapp.jpg",
-    deployed_url: "https://sumit-chat.netlify.app/",
-    github_url: "https://github.com/Dey-Sumit/chat-app-socket.io-react-node",
-    category: ["node", "react"],
-    description:
-      "Basic Realtime Chat App where one can create a room can talk to each other",
-    key_techs: ["React", "Node", "Express", "Socket", "Bootstrap"],
-  },
-
-  {
-    name: "Tweeter Clone",
-    image_path: "/images/tweetme.jpg",
-    deployed_url: "http://sumaxtweetme.pythonanywhere.com/",
-    github_url: "https://github.com/Dey-Sumit/tweetme",
-    category: ["django", "react"],
-    description:
-      "First Django Project :) | Typical Social Media App where one can post,like ,comment etc",
-    key_techs: ["React", "Django", "Django REST API"],
-  },
-
-  {
-    name: "Color Classification using tf.js",
-    image_path: "/images/color.jpg",
-    deployed_url: "!#",
-    github_url: "https://github.com/Dey-Sumit/color-classification",
-    category: ["express"],
-    description:
-      "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
-    key_techs: ["Express", "TensorFlow.js", "Vanilla js"],
+      "Promptopia is an open-source AI prompting tool for modern world to discover, create and share creative prompts",
+    key_techs: ["Next", "react", "Tailwind"],
   },
   {
-    name: "YouTube using YouTube ",
-    image_path: "/images/youtubeClone.png",
-    deployed_url: "https://not-utube.web.app/",
-    github_url: "https://github.com/Dey-Sumit/youtube-clone-tutorial-up",
-    category: ["express"],
-    description:
-      'Full(almost) Functional YouTube replica where one can login with his/her youtube account to enjoy "not-YouTube".User can like a video,comment on a video & Much More ',
-    key_techs: [
-      "React",
-      "Redux",
-      "Firebase Auth",
-      "YouTube API",
-      "Sass",
-      "Bootstrap",
-    ],
-  },
-  {
-    name: "Football App",
-    image_path: "/images/football.png",
-    deployed_url: "https://o-my-goal.web.app/",
-    github_url: "https://github.com/Dey-Sumit/football-app",
+    id: 4,
+    name: "open-ai-article-summarizer",
+    image_path: "/portfolio8.PNG",
+    deployed_url: "https://open-ai-article-summarizer.netlify.app/",
+    github_url:
+      "https://github.com/Syed-Mujtaba-Mussavi/AI-Article-Summarizer/tree/master",
     category: ["react"],
     description:
-      "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
-    key_techs: ["React", "Redux", "Firebase Auth", "API", "Sass", "Bootstrap"],
+      "Simplify your reading with summize, an open-source article summarizer that transforms lengthy articles into clear and concise summaries",
+    key_techs: ["React", "OpenAI API"],
+  },
+  {
+    id: 5,
+    name: "React CRUD app",
+    image_path: "/portfolio12.PNG",
+    deployed_url: "Nike Landing Page made by React and Tailwind css",
+    github_url: "https://github.com/Syed-Mujtaba-Mussavi/react-crud-app",
+    category: ["react"],
+    description: "A website to add users and implement react CRUD features",
+    key_techs: ["React", "Bootstrap"],
+  },
+  {
+    id: 6,
+    name: "Glassy portfolio",
+    image_path: "/portfolio.PNG",
+    deployed_url: "https://glass-portfolioo.netlify.app/",
+    github_url: "https://github.com/Syed-Mujtaba-Mussavi/portfolio-design",
+    category: ["HTML&CSS"],
+    description: "Glassy template of personal portfolio",
+    key_techs: ["HTML", "CSS"],
+  },
+  {
+    id: 7,
+    name: "Bankist App",
+    image_path: "/portfolio1.PNG",
+    deployed_url: "https://bankist-2023.netlify.app/",
+    github_url: "https://github.com/Syed-Mujtaba-Mussavi/Bankist-Web",
+    category: ["Javascript"],
+    description: "It's a landing page for a bank",
+    key_techs: ["HTML", "CSS", "javascript"],
+  },
+
+  {
+    id: 8,
+    name: "Pig Game",
+    image_path: "/portfolio2.PNG",
+    deployed_url: "https://pig-game23.netlify.app/",
+    github_url: "https://github.com/Syed-Mujtaba-Mussavi/pig-game",
+    category: ["Javascript"],
+    description: "A dice game to improve javascript skill",
+    key_techs: ["HTML", "CSS", "javascript"],
+  },
+
+  {
+    id: 9,
+    name: "Grocery Store",
+    image_path: "/portfolio3.PNG",
+    deployed_url: "https://grocery-store-dev.netlify.app/",
+    github_url:
+      "https://github.com/Syed-Mujtaba-Mussavi/Grocery-website-freshy-",
+    category: ["HTML&CSS"],
+    description: "It's an online grocery store design",
+    key_techs: ["HTML", "CSS"],
+  },
+
+  {
+    id: 10,
+    name: "Guess my number game",
+    image_path: "/portfolio4.PNG",
+    deployed_url: "https://guess-my-number-game22.netlify.app/",
+    github_url: "https://github.com/Syed-Mujtaba-Mussavi/guess-my-number-game",
+    category: ["Javascript"],
+    description: "A Guess my number game to improve javascript skill",
+    key_techs: ["HTML", "CSS", "Javascript"],
+  },
+
+  {
+    id: 11,
+    name: "Mapty",
+    image_path: "/portfolio5.PNG",
+    deployed_url: "https://mapty-pro.netlify.app/",
+    github_url: "https://github.com/Syed-Mujtaba-Mussavi/Mapty-project",
+    category: ["Javascript"],
+    description:
+      "Mapty project it's a website that you can set up your destination on the map and track your running or cycling",
+    key_techs: ["javascript", "HTML", "CSS"],
+  },
+  {
+    id: 12,
+    name: "Natorious",
+    image_path: "/portfolio6.PNG",
+    deployed_url: "https://natorious-web.netlify.app/",
+    github_url: "https://github.com/Syed-Mujtaba-Mussavi/Natorious-",
+    category: ["HTML&CSS"],
+    description: "exciting tours for adventurous people website",
+    key_techs: ["HTML", "CSS", "Sass"],
+  },
+  {
+    id: 13,
+    name: "Omni-food",
+    image_path: "/portfolio7.PNG",
+    deployed_url: "https://omni-food-muj.netlify.app/",
+    github_url: "https://github.com/Syed-Mujtaba-Mussavi/omnifood-muj",
+    category: ["HTML&CSS"],
+    description:
+      "It's an Al food ordering website that provide a healthy food around the clock and have a annual plan and monthly plan of serving and payment",
+    key_techs: ["HTML", "CSS"],
   },
 ];

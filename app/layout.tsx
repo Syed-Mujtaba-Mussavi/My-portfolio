@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Kaushan_Script } from "next/font/google";
+import Providers from "@/context/Providers";
 import "./globals.css";
 
 const inter = Inter({
@@ -24,16 +25,19 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" class="dark">
-      <body
-        className={`
+    <html lang="en">
+      <Providers>
+        <body
+          className={`
         ${inter.variable}
         ${kaushan.variable} 
-        font-sans bg-gradient-to-r from-green to-blue-400
+        font-sans bg-fixed bg-gradient-to-r from-green to-blue-400 dark:from-dark-500 dark:to-dark-700
         `}
-      >
-        {children}
-      </body>
+          suppressHydrationWarning
+        >
+          {children}
+        </body>
+      </Providers>
     </html>
   );
 }
