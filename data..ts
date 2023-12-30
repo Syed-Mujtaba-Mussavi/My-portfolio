@@ -243,4 +243,14 @@ export const projects: IProject[] = [
       "It's an Al food ordering website that provide a healthy food around the clock and have a annual plan and monthly plan of serving and payment",
     key_techs: ["HTML", "CSS"],
   },
+  {
+    id: 14,
+    name: "Today I learned",
+    image_path: "/portfolio11.PNG",
+    deployed_url: "https://todayilearnedlesson.netlify.app/",
+    github_url: "https://github.com/Syed-Mujtaba-Mussavi/todayilearned",
+    category: ["react"],
+    description: "It's a website where you can share thinks and people like or dislike it.",
+    key_techs: ["react", "css"],
+  },
 ];
