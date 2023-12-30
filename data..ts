@@ -246,7 +246,7 @@ export const projects: IProject[] = [
   {
     id: 14,
     name: "Today I learned",
-    image_path: "/portfolio11.PNG",
+    image_path: "",
     deployed_url: "https://todayilearnedlesson.netlify.app/",
     github_url: "https://github.com/Syed-Mujtaba-Mussavi/todayilearned",
     category: ["react"],
