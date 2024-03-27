@@ -250,7 +250,7 @@ export const projects: IProject[] = [
     {
     id: 15,
     name: "Car Showcase",
-    image_path: "/portfolio11.PNG",
+    image_path: "/portfolio15.PNG",
     deployed_url: "https://cars-showcase-muj.vercel.app/",
     github_url: "https://github.com/Syed-Mujtaba-Mussavi/car_showcase",
     category: ["next"],
@@ -260,7 +260,7 @@ export const projects: IProject[] = [
   {
     id: 16,
     name: "Today-I-Learned",
-    image_path: "/portfolio11.PNG",
+    image_path: "/portfolio16.PNG",
     deployed_url: "https://todayilearnedlesson.netlify.app/",
     github_url: "https://github.com/Syed-Mujtaba-Mussavi/Today-I-Learned",
     category: ["react"],
