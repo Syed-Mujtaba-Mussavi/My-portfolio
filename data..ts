@@ -33,12 +33,6 @@ export const services: Service[] = [
     about:
       "stunning user interface designer using <b>Figma</b>  and  <b>Adobe XD</b> ",
   },
-  {
-    Icon: RiComputerLine,
-    title: "Whatever",
-    about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!",
-  },
 ];
 
 export const languages: ISkill[] = [
@@ -252,5 +246,15 @@ export const projects: IProject[] = [
     category: ["react"],
     description: "It's a website where you can share thinks and people like or dislike it.",
     key_techs: ["react", "css"],
+  },
+    {
+    id: 15,
+    name: "Car Showcase",
+    image_path: "/portfolio11.PNG",
+    deployed_url: "https://cars-showcase-muj.vercel.app/",
+    github_url: "https://github.com/Syed-Mujtaba-Mussavi/car_showcase",
+    category: ["Next"],
+    description: "Nike Landing Page made by React and Tailwind css",
+    key_techs: ["react", "Next"],
   },
 ];
