@@ -9,7 +9,7 @@ const About = () => {
     <div className="flex flex-col px-6 pt-1 flex-grow">
       <h5 className="my-3 font-medium">
         My name is Syed Mujtaba, a Junior Frontend Developer and UX/UI Designer
-        with approximately one year of experience in the industry. My areas of
+        with two years of experience in the industry. My areas of
         expertise include Adobe Photoshop, Figma, Branding, and creating
         attractive, Responsive Websites using HTML, CSS, SASS, Tailwind,
         JavaScript, ES6+, React, React Query, Next.js, Git, and GitHub.
